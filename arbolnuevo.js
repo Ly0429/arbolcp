@@ -38,3 +38,6 @@ function dibujarRama(x, y, largo, angulo, nivel) {
 }
 
 dibujarRama(450, 550, 120, -Math.PI / 2, 11); //aqui es lo de los niveles
+
+//ctx.fillStyle = "#2b13854b";
+//ctx.fillRect(0, 0, lienzo.width, lienzo.height);
