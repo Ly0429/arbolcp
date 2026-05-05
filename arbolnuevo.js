@@ -6,7 +6,7 @@ function dibujarRama(x, y, largo, angulo, nivel) {
         ctx.beginPath();
         ctx.arc(x, y, 2, 0, Math.PI * 2);
         ctx.fillStyle = "#55347D";
-        ctx.fill();
+        ctx.fill(); // el relleno
         return;
     }
 
@@ -14,9 +14,9 @@ function dibujarRama(x, y, largo, angulo, nivel) {
     if (nivel === 0) {
         ctx.beginPath();
         ctx.arc(x, y, 4, 0, Math.PI * 2);
-        ctx.strokeStyle = "green"; // color del contorno
-        ctx.lineWidth = 1; // grosor del círculo
-        ctx.stroke(); // ← esto dibuja solo el borde
+        ctx.strokeStyle = "green"; 
+        ctx.lineWidth = 1; 
+        ctx.stroke(); //el contorno
         return;
     }
     */
